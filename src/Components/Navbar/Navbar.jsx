@@ -14,7 +14,7 @@ const Navbar = () => {
             <span>Weather 99</span>
         </div>
 
-        <div className='Refresh'>
+        <div className='Refresh' onClick={()=>{window.location.reload()}}>
         <span><IoMdRefreshCircle className='Refresh-logo'/></span>
             <span>Refresh</span>
         </div>
